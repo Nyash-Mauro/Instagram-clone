@@ -39,6 +39,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'tinymce',
+    'bootstrap4',
     'corsheaders',
     'vote',
     'gram',
