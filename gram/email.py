@@ -1,14 +1,14 @@
-# from django.core.mail import send_mail
-
-# send_mail(
-#     'Welcome to the gram {{user}}',
-#     'Hope you will love it',
-#     'cheatcodes.dev@gmail.com',
-#     [''],
-#     fail_silently=False,
-# )
-from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
+from django.core.mail import EmailMultiAlternatives
+from django.core.mail import send_mail
+
+send_mail(
+    'Welcome to the gram {{user}}',
+    'Hope you will love it',
+    'cheatcodes.dev@gmail.com',
+    [''],
+    fail_silently=False,
+)
 
 
 def send_welcome_email(name, receiver):
