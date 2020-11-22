@@ -51,7 +51,7 @@ def profile_edit(request):
 
     else:
         form = PhotoForm()
-        return render(request, 'gramies/edit.html', {"form": form})
+        return render(request, 'gramies/edit_profile.html', {"form": form})
 
 
 def add_comment(request, id):
