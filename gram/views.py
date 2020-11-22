@@ -1,12 +1,12 @@
-from django import forms
-from django.http import HttpResponse
-from django.shortcuts import render, redirect
-from django.contrib.auth.decorators import login_required
-from cloudinary.forms import cl_init_js_callbacks
-from .models import Profile, Comments
-from .forms import PhotoForm, CommentForm
-from vote.managers import VotableManager
-from .models import *
+# from django import forms
+# from django.http import HttpResponse
+# from django.shortcuts import render, redirect
+# from django.contrib.auth.decorators import login_required
+# from cloudinary.forms import cl_init_js_callbacks
+# from .models import Profile, Comments
+# from .forms import PhotoForm, CommentForm
+# from vote.managers import VotableManager
+# from .models import *
 
 votes = VotableManager()
 
