@@ -1,16 +1,17 @@
 ## Instagram
 
+A clone of the Instagram app.
+
 **Figma Link**
 
-<h1>https://www.figma.com/file/TYvunTJJeLROyJwrm2gUgP/insagram?node-id=0%3A1</h1>
-
-A clone of the Instagram app.
+<h3>https://www.figma.com/file/TYvunTJJeLROyJwrm2gUgP/insagram?node-id=0%3A1</h3>
 
 ## Requirements
 
 Clone the the repository by running
 
-================
+==========================================================
+
 git clone https://github.com/Nyash-Mauro/Instagram-clone.git
 
 # or download a zip file of the project from github then unzip.
@@ -22,8 +23,8 @@ Navigate to your project directory
 Install Virtualenv using pip
 
 =========================
-pip install virtual venv
-=========================
+
+# pip install virtual venv
 
 To create a virtual environment named virtual ,venv or env, run
 
@@ -34,9 +35,9 @@ virtualenv virtual/venv/env
 To activate the virtual environment we just created,
 run
 
-===========================
-source virtual{name of the virtual}/bin/activate
-===========================
+==================================================
+
+# source virtual{name of the virtual}/bin/activate
 
 ## Create a database
 
@@ -47,31 +48,31 @@ $ psql
 Then run the following query to create a new database named instagram
 
 ===========================
-create database instagram
-===========================
+
+# create database instagram
 
 ## Install dependencies
 
 To install the requirements from requirements.txt file,
 
 ===============================
-pip install -r requirements.txt
-===============================
+
+# pip install -r requirements.txt
 
 ## Create Database migrations
 
 Making migrations on postgres using django
 run
 
-===============================
-python manage.py makemigrations
-===============================
+========================================
+
+# python manage.py makemigrations
 
 then run the command below;
 
-=========================
-python3 manage.py migrate
-=========================
+=================================
+
+# python3 manage.py migrate
 
 ## Run the app
 
@@ -100,8 +101,7 @@ python manage.py test
 
 ## User stories
 
-As a user of the application I should be able to:
--------------------------------------------------
+## As a user of the application I should be able to:
 
 - Sign in to the application to start using.
 - Upload my pictures to the application.
@@ -109,8 +109,10 @@ As a user of the application I should be able to:
 - Follow other users and see their pictures on my timeline.
 - Like a picture and leave a comment on it.
 
----------------------------------------------------
----------------------------------------------------
+---
+
+---
+
 ## LICENSE
 
 [LICENSE](license)
