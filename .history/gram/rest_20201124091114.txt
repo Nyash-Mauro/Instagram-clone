@@ -1,0 +1,24 @@
+    • Django REST framework is a powerful and flexible toolkit for building Web APIs. The Web browsable API is a huge usability win for your developers. ... Authentication policies including packages for OAuth1a and OAuth2. Serialization that supports both ORM and non-ORM data sources.
+                Reasons to use restframework
+    • The Web browsable API is a huge usability win for your developers.
+    • Authentication policies including packages for OAuth1a and OAuth2.
+    • Serialization that supports both ORM and non-ORM data sources.
+    • Customizable all the way down - just use regular function-based views if you don't need the more powerful features.
+    • Extensive documentation, and great community support.
+    • Used and trusted by internationally recognised companies including Mozilla, Red Hat, Heroku, and Eventbrite.
+
+    Installation
+Install using pip, including any optional packages you want...
+
+pip install djangorestframework
+
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]
+
+    • GET — The most common option, returns some data from the API based on the endpoint you visit and any parameters you provide
+    • POST — Creates a new record that gets appended to the database
+    • PUT — Looks for a record at the given URI you provide. If it exists, update the existing record. If not, create a new record
+    • DELETE — Deletes the record at the given URI
+    • PATCH — Update individual fields of a record

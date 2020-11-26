@@ -55,6 +55,9 @@ class Comments(models.Model):
         
     
         
+        
+
+    
 class Profile(models.Model):
     profile_photo = models.ImageField(upload_to='images')
     bio = HTMLField()
